@@ -179,7 +179,15 @@ select {
 
 .main-wrapper {
     margin: 0 auto;
-    width: 100%;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #cccccc;
 }
 
 header nav {
@@ -198,6 +206,121 @@ header nav ul li {
 }
 
 header nav ul li a {
+    font-family: arial;
+    font-style: 16px;
+    color: 111px;
+    line-height: 63px;
+}
+
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
     float: left;
-    list-style: none;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #cccccc;
+    font-family: arial;
+    font-style: 14px;
+    color: 111px;
+    line-height: 30px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-style: 14px;
+    color: 111px;
+    cursor: pointer;
+}
+
+header .nav-login form a {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-style: 14px;
+    color: 111px;
+    cursor: pointer;
+}
+
+header .nav-login form button:hover {
+    background-color: #cccccc
+}
+
+header .nav-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: none;
+    background-color: #ffffff;
+    font-family: arial;
+    font-style: 16px;
+    color: 111px;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+.main-container h2 {
+    font-family: arial;
+    font-style: 40px;
+    color: 111px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #ffffff;
+    font-family: arial;
+    font-style: 16px;
+    color: 111px;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222222;
+    font-family: arial;
+    font-style: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.signup-form button:hover {
+    background-color: #111111;
 }
