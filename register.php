@@ -1,6 +1,6 @@
 <?php include_once 'header.php'; ?>
 
-<section class ="main-container">
+<section class="main-container">
     <div class="main-wrapper">
         <h2>Register</h2>
         <form class="signup-form" action="includes/register.php" method="POST">
